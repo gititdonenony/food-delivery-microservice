@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="delivery-service" />
         <module name="config-server" />
         <module name="restaurant-service" />
-        <module name="order-service" />
         <module name="customer-service" />
+        <module name="order-service" />
         <module name="service-discovery" />
         <module name="notification-service" />
       </profile>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="customer-service" options="-parameters" />
+      <module name="delivery-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="restaurant-service" options="-parameters" />
